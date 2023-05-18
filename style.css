@@ -1,0 +1,36 @@
+
+
+body {
+    font-size: 10px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridSelection {
+    margin: 20px;
+}
+
+.container {
+    font-size: 5em;
+    border: solid;
+    border-color: black;
+    height: 80vh;
+    width: 80vh;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    pointer-events: none;
+}
+
+.grid {
+    flex-basis: var(--flexBasic);
+    pointer-events: all;
+}
+
+.hoverGrid {
+background-color: black;
+}
